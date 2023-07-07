@@ -7,8 +7,21 @@ function find_item() {
     return;
   }
   console.log(item);
-  
-  chrome.tabs.create({ url: item });
-
-    // chrome.tabs.create({ url: "https://www.google.com/search?q=" + item });
+  $.ajax({
+    url:
+      "https://universityheights.myturn.com/library/inventory/browse?q=" + item,
+    dataType: "html",
+    success: function (response) {
+      url = $(response).find("a:contains('Edit')")[0].href;
+      url_parts = url.slice(19).split("/");
+      url_parts.splice(0, 1);
+      url_ending = "";
+      url_parts.forEach(function (part) {
+        url_ending += "/" + part;
+      });
+      chrome.tabs.create({
+        url: "https://universityheights.myturn.com" + url_ending,
+      });
+    },
+  });
 }
