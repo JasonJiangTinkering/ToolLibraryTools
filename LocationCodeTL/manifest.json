@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World Extension",
+  "version": "1.0",
+  "description": "Displays 'Hello, World!' in the active tab's console log.",
+  "content_scripts": [
+    {
+      "matches": ["https://universityheights.myturn.com/"],
+      "js": ["content_script.js","popup.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background_script.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
