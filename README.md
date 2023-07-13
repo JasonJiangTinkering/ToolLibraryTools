@@ -12,8 +12,12 @@
 ## Change the default Keyboard Shortcut to open the extension.
 
 1. Click the three-dot menu from the browser’s top-right corner.
-   From the More tools list, open Extensions.
-   Click the three-line menu from the top-left corner.
-   Select Keyboard shortcuts.
-   Click the Edit icon below the extensions.
-   Enter the keys combination that will open the extension in the Type a shortcut field. Keep in mind, the key combination should include the Ctrl or Alt key.
+1. From the More tools list, open Extensions.
+1. Click the three-line menu from the top-left corner.
+1. Select Keyboard shortcuts.
+
+1. Click the Edit icon below the extensions.
+
+1. Enter the keys combination that will open the extension in the
+
+1. Type a shortcut field. Keep in mind, the key combination should include the Ctrl or Alt key.
