@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Hello World Extension",
+  "name": "Tool Library Helper Extension",
   "version": "1.0",
-  "description": "Displays 'Hello, World!' in the active tab's console log.",
+  "description": "Spend less time navigating the tool library website and more time building community!",
   "content_scripts": [
     {
       "matches": ["https://universityheights.myturn.com/"],
-      "js": ["content_script.js","popup.js"]
+      "js": ["content_script.js","popup.js", "images.js"]
     }
   ],
   "background": {
@@ -18,5 +18,14 @@
   },
   "permissions": [
     "activeTab"
-  ]
+  ],
+  "web_accessible_resources": ["TL_Logo_Nov2018_bluewbg.webp"],
+  "commands": {
+    "_execute_browser_action":{
+      "suggested_key": {
+        "default": "Alt+I"
+      }
+    }
+  }
+
 }
