@@ -1,5 +1,5 @@
 # ToolLibraryTools
-
+Spend less time navigating the tool library website and more time building community!
 ## Install Tutorial For Chrome
 
 1. Download this folder as a zip file
