@@ -1,5 +1,13 @@
 # ToolLibraryTools
-Spend less time navigating the tool library website and more time building community!
+Spend less time navigating the tool library website to edit a tool and more time building community!
+
+## How to use this tool most efficiently
+
+1. press the keyboard shortcut (default, alt + i)
+1. type the id of the tool
+1. press tab
+1. press enter
+
 ## Install Tutorial For Chrome
 
 1. Download this folder as a zip file
