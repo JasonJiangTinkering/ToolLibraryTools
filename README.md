@@ -5,7 +5,7 @@
 1. Download this folder as a zip file
 1. Unzip the installed folder
 1. Go to [chrome extensions](chrome://extensions/)
-1. Hit the Load Unpacked Button and find the unzipped folder
+1. Hit the Load Unpacked Button, go into the unzipped folder, and select the LocationCodeTL folder 
 1. Hit the reloaded button
 1. Default shortcut to open is <u><b>Alt + I</b></u>
 
