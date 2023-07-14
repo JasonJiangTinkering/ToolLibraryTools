@@ -7,6 +7,8 @@ Spend less time navigating the tool library website to edit a tool and more time
 1. Type the id of the tool
 1. Press Tab
 1. Press Space or Enter
+1. If it doesn't take you to the right place, try the same id again
+2. If it still doesn't work, default to the tool library website
 
 ## Install Tutorial For Chrome
 
