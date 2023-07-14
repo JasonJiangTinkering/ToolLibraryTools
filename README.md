@@ -6,7 +6,7 @@ Spend less time navigating the tool library website to edit a tool and more time
 1. Press the keyboard shortcut (default, alt + i)
 1. Type the id of the tool
 1. Press Tab
-1. Press Enter
+1. Press Space or Enter
 
 ## Install Tutorial For Chrome
 
