@@ -3,10 +3,10 @@ Spend less time navigating the tool library website to edit a tool and more time
 
 ## How to use this tool most efficiently
 
-1. press the keyboard shortcut (default, alt + i)
-1. type the id of the tool
-1. press tab
-1. press enter
+1. Press the keyboard shortcut (default, alt + i)
+1. Type the id of the tool
+1. Press Tab
+1. Press Enter
 
 ## Install Tutorial For Chrome
 
@@ -23,9 +23,6 @@ Spend less time navigating the tool library website to edit a tool and more time
 1. From the More tools list, open Extensions.
 1. Click the three-line menu from the top-left corner.
 1. Select Keyboard shortcuts.
-
 1. Click the Edit icon below the extensions.
-
-1. Enter the keys combination that will open the extension in the
-
+1. Enter the keys combination that will open the extension in the input box
 1. Type a shortcut field. Keep in mind, the key combination should include the Ctrl or Alt key.
