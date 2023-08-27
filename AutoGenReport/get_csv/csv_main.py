@@ -1,7 +1,7 @@
 # Load selenium components
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from . import login
+from . import login_file
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -16,7 +16,7 @@ def get_csv_runner(file_location):
     driver = webdriver.Chrome(options=options)
     driver.get(url)
     # login to tool library
-    login.login(driver)
+    login_file.login(driver)
     # Click the "Export to CSV" button
     export_to_csv = WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable((By.XPATH, "//a[@data-extension='csv']"))
